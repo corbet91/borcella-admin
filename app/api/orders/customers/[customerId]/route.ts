@@ -1,6 +1,7 @@
-import Order from "@/lib/models/Order";
-import Product from "@/lib/models/Product";
-import { connectToDB } from "@/lib/mongoDB";
+
+import Order from "@/app/lib/models/Order";
+import Product from "@/app/lib/models/Product";
+import { connectToDB } from "@/app/lib/mongoDB";
 import { NextRequest, NextResponse } from "next/server";
 
 export const GET = async (
